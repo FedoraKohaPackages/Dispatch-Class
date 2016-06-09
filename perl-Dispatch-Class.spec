@@ -51,7 +51,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%doc Changes META.json README
+%doc Changes README
 %{perl_vendorlib}/*
 %{_mandir}/man3/*
 
